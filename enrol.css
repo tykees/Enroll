@@ -1,0 +1,51 @@
+header {
+    position: relative;
+    height: 300px;
+    background-image: linear-gradient(#1a466e, #1B3C5B);
+  }
+  
+  h1 {
+    padding: 70px 0;
+    font: 44px "Arial";
+    text-align: center;
+  }
+  
+  
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+
+.fa {
+    color: #1B3C5B;
+}
+
+table {
+    background: #1B3C5B !important;
+}
+
+.card {
+    background: #1B3C5B !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    font-size: 18px;
+}
+
+
+@media(max-width: 530px) {
+    header h1 {
+        font-size: 30px !important;
+    }
+  }
